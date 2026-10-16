@@ -1,0 +1,38 @@
+# kung-lab.github.io/robots.txt — 쿵랩(KUNG LAB) (2026-10-16 사용자: "Robot의 자료검색 금지 · 콘텐츠와 소스를 훔쳐가지 않도록")
+#
+# 올리는 곳: KUNG-LAB/kung-lab.github.io 저장소의 맨 위(app-ads.txt 옆). robots.txt는 사이트 맨 위에서만 읽힌다 —
+#   /seoul-yuka/ 아래(public_seoul_yuka)에 두면 어떤 로봇도 읽지 않는다.
+# 방침: 검색엔진(구글 · 네이버 · 다음 · 빙)과 광고 확인(app-ads.txt)은 연다 — 앱 소개 페이지가 검색에 나오고,
+#   Google Play 심사가 약관 · 방침 주소를 열고, AdMob이 app-ads.txt를 읽어야 하기 때문이다.
+#   AI 학습 · 데이터 수집용으로 알려진 로봇은 막는다.
+# ⚠️ robots.txt는 '부탁'이다. 지키지 않는 수집기는 막지 못한다 — 약관(제6조) · 서버 쪽 제한과 함께 쓴다.
+# 경위: md_files/seoul_yuka/POLICY_PAGES.md '자동 수집 금지'
+
+# AI 학습 · 데이터 수집 로봇 — 사이트 전체 금지
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+User-agent: CCBot
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: anthropic-ai
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Bytespider
+User-agent: Amazonbot
+User-agent: meta-externalagent
+User-agent: FacebookBot
+User-agent: Diffbot
+User-agent: cohere-ai
+User-agent: ImagesiftBot
+User-agent: Omgilibot
+User-agent: Omgili
+User-agent: Timpibot
+User-agent: YouBot
+Disallow: /
+
+# 그 밖의 로봇(검색엔진 · 광고 확인) — 허용
+User-agent: *
+Allow: /
